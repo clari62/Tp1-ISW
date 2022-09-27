@@ -12,3 +12,6 @@ Utilizando el archivo .gitignore es posible ignorar todos los cambios realizados
 
 <h2> Inciso 2-g </h2>
 Para llevar al entorno productivo Release1 lo que sugiere GitFlow es crear un pull request de la rama release1 a la línea base. Luego, una vez resuelto el pull request, se le asocia un tag (en este caso 1.0.0).
+
+<h2> Inciso 2-k </h2>
+Para llevar al entorno productivo feature/f1 lo que sugiere GitFlow es crear un pull request de la rama feature/f1 a la develop. Luego, una vez resuelto el pull request, se crea una rama Release (en nuestro caso llamada release3). Luego se realiza un pull request de dicha rama a main. Una vez resuelto el pull request, se le asocia un tag (en este caso 1.1.0). 
