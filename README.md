@@ -15,3 +15,9 @@ Para llevar al entorno productivo Release1 lo que sugiere GitFlow es crear un pu
 
 <h2> Inciso 2-k </h2>
 Para llevar al entorno productivo feature/f1 lo que sugiere GitFlow es crear un pull request de la rama feature/f1 a la develop. Luego, una vez resuelto el pull request, se crea una rama Release (en nuestro caso llamada release3). Luego se realiza un pull request de dicha rama a main. Una vez resuelto el pull request, se le asocia un tag (en este caso 1.1.0). 
+
+<h2> Inciso 3-a </h2>
+En el archivo README incluiríamos una descripción breve del proyecto, sus propietarios, para qué sirve, cómo instalarlo y ejemplos de uso. 
+
+<h2> Inciso 3-b </h2>
+GitHub ofrece la posibilidad de crear una plantilla de pull request, en la que se indica la información que se desea sea completada al hacer un pull request. En ella se puede incluir la solicitud de una descripción de la modificación, la cantidad de revisores necesarios para aprobarla, etc.
